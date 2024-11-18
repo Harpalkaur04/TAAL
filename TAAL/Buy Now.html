@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll Now</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+    background-color: #222;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+.logo{
+    font-family: "Chakra Petch",sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ff6600;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 14px;
+            color: #777;
+        }
+        .container1 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+    </style>
+</head>
+<body>
+
+  <header>
+    <div class="container1">
+        <div class="logo">Taal</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="instruments.html">Instruments</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+</header>
+<center><h1>Buy Now</h1>
+    <p>Buy the best product from all around world!</p></center>
+
+<div class="container">
+    <h2>Payment Gateaway</h2>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+        
+        <!-- Email Field -->
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+        
+        <!-- Phone Field -->
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+        <label for="amount">Enter Amount</label>
+        <input type="tel" id="amount" name="amount" required placeholder="Enter amount">
+        
+        <label for="payment">Payment Option</label>
+        <select id="payment" name="payment" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="Debit Card">Debit Card</option>
+            <option value="Credit Card">Credit Card</option>
+            <option value="UPI">UPI</option>
+        </select>
+        
+        <label for="number">UPI/Debit/Credit Number</label>
+        <input type="tel" id="number" name="number" required placeholder="Enter your UPI/Credit/Debit Number">
+           
+        
+          <button type="submit">Buy Now</button>
+         
+       
+        
+    </form>
+    
+</div>
+
+<footer class="footer">
+    <p>© 2024 Taal | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

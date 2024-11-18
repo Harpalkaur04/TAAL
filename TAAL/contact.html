@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Taal</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #ff6600;
+}
+
+
+.contact-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact-section p {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.contact-form, .contact-details {
+  width: 350px;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(50, 8, 8, 0.1);
+}
+
+.contact-form h3, .contact-details h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+
+.contact-details p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
+.logo{
+    font-family: "Chakra Petch",sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <div class="logo">Taal</div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="instruments.html">Instruments</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Have questions or need assistance? Reach out to us, and we’ll get back to you as soon as possible.</p>
+
+      <div class="contact-container">
+        
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+
+
+        <div class="contact-details">
+          <h3>Our Contact Information</h3>
+          <p><strong>Address:</strong> 4567 Music Lane,
+            Sector 12,
+            Gurgaon, Haryana 122018
+            India
+            
+            </p>
+          <p><strong>Email:</strong> contact@taal.com</p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Taal. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

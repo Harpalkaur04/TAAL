@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+
+.hero {
+    background: url('https://files.oaiusercontent.com/file-HsJWFqJWG46b6yRd5sP5yAYg?se=2024-11-05T16%3A05%3A38Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D0cb3c71e-d6ab-4cda-a64b-94d696185b73.webp&sig=SdGadaUq3hTyfX%2Bt%2BcgcpLI4ZcEviE%2BZoedojHlvLXA%3D') no-repeat center center/cover;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+.logo{
+    font-family: "Chakra Petch",sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e65c00;
+}
+
+
+.showcase {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.showcase h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.instrument-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.instrument-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.instrument-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.instrument-card h3 {
+    margin: 15px 0 10px;
+}
+
+.instrument-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.btn {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d35400;
+}
+    .section-title {
+        font-size: 30px;
+    }
+
+    .course-title {
+        font-size: 20px;
+    }
+
+    .course-duration, .course-tutor, .course-overview {
+        font-size: 14px;
+    }
+
+    .course-card {
+        padding: 15px;
+    }
+
+    .course-image img {
+        height: 150px;
+    }
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e65c00;
+}
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">Taal</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="instruments.html">Instruments</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Discover Your Sound</h2>
+            <p>Explore a variety of musical instruments for every passion and skill level.</p>
+            <a href="#instruments" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    
+    <section id="instruments" class="showcase">
+        <div class="container">
+            <h2>Our Instruments</h2>
+            <div class="instrument-grid">
+                <div class="instrument-card">
+                    <img src="https://media.istockphoto.com/id/156547833/photo/acoustic-guitar.jpg?s=612x612&w=0&k=20&c=41dpTbgbk7Zp9EZ9W_llfbbXZDG3Ut1S9iuVSrmwGI4=" alt="Guitar">
+                    <h3>Guitars</h3>
+                    <h4>₹7,900</h4>
+                    
+                    <p>Explore our wide selection of acoustic and electric guitars.</p>
+                    <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+            </div>
+                
+                <div class="instrument-card">
+                    <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9dc1522ad3a7607391f539810e42a604/p/-/p-s500bk-01-basic.jpg" alt="Piano" alt="Piano">
+                    <h3>Pianos</h3>
+                    <h4>₹6,500</h4>
+                    <p>Find the perfect piano, whether it's digital or acoustic.</p>
+                    <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+                </div>
+                <div class="instrument-card">
+                    <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/d/u/dummy-3-1_brown-1.jpg" alt="Drums">
+                    <h3>Drums</h3>
+                    <h4>₹20,500</h4>
+                    <p>Unleash your rhythm with our range of drum kits and percussion.</p>
+                    <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+                </div>
+                <div class="instrument-card">
+                    <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/v/2/v20sg.jpg" alt="Violin">
+                    <h3>Violins</h3>
+                    <h4>₹8,600</h4>
+                    <p>Beautifully crafted violins for beginners and pros alike.</p>
+                    <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Taal. All Rights Reserved.</p>
+            <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+        </div>
+    </footer>
+</body>
+</html>

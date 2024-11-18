@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instruments - Music Store</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #ff6600;
+}
+
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+main h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.instrument-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.instrument-item {
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.instrument-item:hover {
+  transform: scale(1.05);
+}
+
+.instrument-item img {
+  width: 100%;
+  height: auto;
+}
+
+.instrument-item h3 {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+.btn {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d35400;
+}
+    .section-title {
+        font-size: 30px;
+    }
+
+    .course-title {
+        font-size: 20px;
+    }
+
+    .course-duration, .course-tutor, .course-overview {
+        font-size: 14px;
+    }
+
+    .course-card {
+        padding: 15px;
+    }
+
+    .course-image img {
+        height: 150px;
+    }
+.instrument-item p {
+  padding: 0 1rem 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
+.logo{
+    font-family: "Chakra Petch",sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <div class="logo">Taal</div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="instruments.html">Instruments</a>
+      <a href="contact.html">Contact </a>
+    </nav>
+  </header>
+
+  
+  <main>
+    <h2>Our Instruments</h2>
+    <div class="instrument-list">
+      <div class="instrument-item">
+        
+        <img src="https://media.istockphoto.com/id/156547833/photo/acoustic-guitar.jpg?s=612x612&w=0&k=20&c=41dpTbgbk7Zp9EZ9W_llfbbXZDG3Ut1S9iuVSrmwGI4=
+        " alt="Guitar">
+        <h3>Guitar</h3>
+        <h4>₹7,900</h4>
+        <p>High-quality acoustic and electric guitars for all levels.</p>
+        <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+      </div>
+      <div class="instrument-item">
+        <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9dc1522ad3a7607391f539810e42a604/p/-/p-s500bk-01-basic.jpg" alt="Piano">
+        <h3>Piano</h3>
+        <h4>₹6,500</h4>
+        <p>Classic pianos with rich sound quality, suitable for beginners to pros.</p>
+        <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+      </div>
+      <div class="instrument-item">
+        <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/d/u/dummy-3-1_brown-1.jpg" alt="Drums">
+        <h3>Drums</h3>
+        <h4>₹20,500</h4>
+        <p>Drum sets and percussions to keep you in the rhythm.</p>
+        <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+      </div>
+      <div class="instrument-item">
+        <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/v/2/v20sg.jpg" alt="Violin">
+        <h3>Violin</h3>
+        <h4>₹8,600</h4>
+        <p>Beautiful violins for classical and modern music lovers.</p>
+        <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+      </div>
+      <div class="instrument-item">
+        <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/m/o/montage_m6_o_0001_1_.png" alt="Montage">
+        <h3>Montage</h3>
+        <h4>₹1,05,000</h4>
+        <p>Discover unique finds crafted with quality, delivered with care.</p>
+        <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+      </div>
+      <div class="instrument-item">
+        <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/g/a/ga15iih.jpg" alt="Amplifier">
+        <h3>Amplifier</h3>
+        <h4>₹4,500</h4>
+        <p>Amplify your experience with sound that speaks volumes.</p>
+        <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+      </div>
+      <div class="instrument-item">
+        <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/y/d/ydp-105r-01-basic_withoutbench.jpeg" alt="Arius Piano">
+        <h3>Arius Piano</h3>
+        <h4>₹79,000</h4>
+        <p>Elevate your music with the elegance and authenticity of Arius pianos.</p>
+        <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+      </div>
+      <div class="instrument-item">
+        <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/p/a/pacs_12m_ash-pink_front_0001.jpg" alt="Electric Guitars">
+        <h3>Electric Guitars</h3>
+        <h4>₹6,750</h4>
+        <p>Unleash your sound with electric guitars that ignite every performance.</p>
+        <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+      </div>
+      <div class="instrument-item">
+        <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/y/s/ysv104-black_-01.jpg" alt="Silent Violin">
+        <h3>Silent Violin</h3>
+        <h4>₹11,500</h4>
+        <p>Experience pure expression with the Silent Violin—play anytime, anywhere.</p>
+        <center><a href="Buy Now.html"><button class="btn">Buy Now</button></a></center>
+      </div>
+    </div>
+  </main>
+
+  
+  <footer>
+    <p>&copy; 2024 Taal. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
